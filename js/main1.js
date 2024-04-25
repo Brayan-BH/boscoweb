@@ -257,3 +257,14 @@ $(document).ready(function() {
         $('#videoModal iframe').attr('src', '');
     });
 });
+
+
+/* Menu desplegable */
+function toggleButtons() {
+    var secondaryButtons = document.getElementById('secondaryButtons');
+    if (secondaryButtons.style.display === "none") {
+        secondaryButtons.style.display = "block";
+    } else {
+        secondaryButtons.style.display = "none";
+    }
+}
