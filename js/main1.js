@@ -268,3 +268,8 @@ function toggleButtons() {
         secondaryButtons.style.display = "none";
     }
 }
+
+// Modal topico comunicado
+    $(document).ready(function(){
+        $('#comunicadoModal').modal('show');
+    });
